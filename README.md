@@ -161,18 +161,24 @@ It help me in finding the good attributes and bad attributes for training my mod
 
 ## 9.	Interpretation and Conclusion
 
-Linear Regression:
+Simple Linear Regression:
 	
-     RMSE value: 11505442.544890618
+     RMSE value: 15446938.691334337
      
-     R2 value : 0.7681989074166417
+     R2 value : 0.6887892619732783
+
+Multiple Linear Regression:
+	
+     RMSE value: 19637652.97310373
+     
+     R2 value : 0.7708377040905359
 
 Polynomial Regression: 
 
-     RMSE value: 13589923.707858166
+     RMSE value: 5357185.720506018
      
-     R2 value : 0.7262026948276802
+     R2 value : 0.892068340844766
 
-By looking towards the distribution plot of test data the polynomial model shows phenomenal result but RMSE and R2 value of linear model have a slight edge over polynomial model. 
-
+We can conclude by looking the Mean Squared value and R2 value that polynomial regression fit more perfect for the given car data as compaired to simple or multiple linear regression.
+as Polynomial Regression gives almost 90 per accuracy and there is a huge difference in RMS value of multiple regression and polynomial regression.
 &nbsp; &nbsp; &nbsp; &nbsp;
